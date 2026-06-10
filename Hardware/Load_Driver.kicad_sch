@@ -1614,6 +1614,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 78.74) (xy 231.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65632bc9-0af4-4411-a588-aef6cdd10183")
+	)
+	(wire
+		(pts
 			(xy 226.06 50.8) (xy 241.3 50.8)
 		)
 		(stroke
@@ -1931,6 +1941,16 @@
 			(type default)
 		)
 		(uuid "e851213d-5de8-4a51-a118-6e51defb7b4d")
+	)
+	(wire
+		(pts
+			(xy 228.6 43.18) (xy 231.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec354e5d-1cc7-4bd5-bc8b-de6df596ebdf")
 	)
 	(wire
 		(pts
@@ -2631,6 +2651,50 @@
 		)
 		(uuid "ecb3372a-ffd3-4436-80ae-1b54a8b9f34f")
 	)
+	(global_label "5v0"
+		(shape input)
+		(at 231.14 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "888af7cc-3eec-476f-88e6-6637ed782292")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5118 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v0"
+		(shape input)
+		(at 231.14 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b50abeab-ba1c-46d4-bf1e-684afe943a59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5118 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "{Channels}"
 		(shape input)
 		(at 191.77 142.24 0)
@@ -2663,7 +2727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "050cb097-137b-4cf0-9282-ec650ef25348")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 102.87 68.58 0)
 			(effects
 				(font
@@ -2713,7 +2777,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058c19bb-18d1-4ca1-a358-4356261bf8ba")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 198.12 107.95 0)
 			(effects
 				(font
@@ -2779,7 +2843,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2795,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a457ed2-1be4-41b4-b4df-d503e4114849")
-		(property "Reference" "J1"
+		(property "Reference" "RELAY1"
 			(at 119.38 41.9099 0)
 			(effects
 				(font
@@ -2813,7 +2877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VCF4-1000:TE_VCF4-1000"
+		(property "Footprint" "footprints:TE_VCF4-1000"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -3009,73 +3073,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 228.6 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a78036e-2d5f-40f5-8b9b-0fb23bfee871")
-		(property "Reference" "#PWR06"
-			(at 228.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 228.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9ea2e4e-6ac1-4817-b74c-c4b18e7b21be")
-		)
-		(instances
-			(project "CANIO-Board"
-				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR06")
+					(reference "RELAY1")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ad35f4-45f0-41c7-a5df-2c429750c6b1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 102.87 39.37 0)
 			(effects
 				(font
@@ -3141,7 +3139,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3173,7 +3171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 213.36 53.34 0)
 			(effects
 				(font
@@ -3267,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f627301-c45c-4fe4-be82-cc2aeada1788")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 102.87 57.15 0)
 			(effects
 				(font
@@ -3317,7 +3315,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd94240-de12-46a3-836d-747dd4d98f32")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -3383,7 +3381,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3415,7 +3413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -3509,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb161a54-eac3-499a-b68a-d8e20f30cead")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR017"
 			(at 198.12 72.39 0)
 			(effects
 				(font
@@ -3559,73 +3557,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 228.6 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b1b187-229d-489d-9e2c-45ca554692dc")
-		(property "Reference" "#PWR04"
-			(at 228.6 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 228.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d3c366f-8a85-4ac4-87f2-2257298177bf")
-		)
-		(instances
-			(project ""
-				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e9c360-7754-49b6-9abf-d06d92a5486e")
-		(property "Reference" "J2"
+		(property "Reference" "RELAY2"
 			(at 119.38 71.1199 0)
 			(effects
 				(font
@@ -3659,7 +3591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VCF4-1000:TE_VCF4-1000"
+		(property "Footprint" "footprints:TE_VCF4-1000"
 			(at 110.49 72.39 0)
 			(effects
 				(font
@@ -3855,7 +3787,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
-					(reference "J2")
+					(reference "RELAY2")
 					(unit 1)
 				)
 			)
