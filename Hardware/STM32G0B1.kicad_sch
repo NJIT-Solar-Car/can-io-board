@@ -5313,7 +5313,7 @@
 		)
 	)
 	(label "Chan5"
-		(at 256.54 58.42 180)
+		(at 256.54 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5373,7 +5373,7 @@
 		(uuid "172e0523-535b-4d2c-ac7c-1bde6d6183cf")
 	)
 	(label "Chan3"
-		(at 194.31 93.98 180)
+		(at 256.54 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5693,7 +5693,7 @@
 		(uuid "77ada794-1c44-4a79-9a4b-221b7e1ab241")
 	)
 	(label "Chan4"
-		(at 256.54 40.64 180)
+		(at 194.31 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5743,7 +5743,7 @@
 		(uuid "90598c71-3cfa-4a21-bd51-f103592bc59a")
 	)
 	(label "Chan1"
-		(at 194.31 58.42 180)
+		(at 256.54 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5953,7 +5953,7 @@
 		(uuid "d07973c0-58ba-4a65-bdaa-24e388ca4837")
 	)
 	(label "Chan2"
-		(at 194.31 76.2 180)
+		(at 194.31 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6063,7 +6063,7 @@
 		(uuid "f5057cf7-69cf-49a4-9773-8dfc87ba954b")
 	)
 	(label "Chan6"
-		(at 256.54 76.2 180)
+		(at 194.31 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)

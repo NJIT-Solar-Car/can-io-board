@@ -1874,6 +1874,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DIP_x03"
 			(pin_names
 				(offset 0)
@@ -2895,7 +3002,7 @@
 		)
 		(uuid "56760bd9-99f0-46b3-815c-fc1a052e8392")
 	)
-	(text "Reset"
+	(text "Reset and Mounting Holes"
 		(exclude_from_sim no)
 		(at 17.018 118.11 0)
 		(effects
@@ -2996,6 +3103,12 @@
 		(uuid "1bfb978a-82dd-4762-ad16-d5f3ef58217a")
 	)
 	(junction
+		(at 43.18 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2127a9b3-2831-4ad1-9d53-b0e6c04a4fd7")
+	)
+	(junction
 		(at 53.34 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3006,6 +3119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "337bb2db-4f97-4e57-a096-1ca08606aacb")
+	)
+	(junction
+		(at 38.1 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a70cdfb-2144-47b6-8a7f-8b74f836cd5a")
 	)
 	(junction
 		(at 125.73 78.74)
@@ -3048,6 +3167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6afd6f73-3c50-4cd9-9e06-a928d0539863")
+	)
+	(junction
+		(at 33.02 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9dba8f-a935-4b8d-a058-388fa73acae4")
 	)
 	(junction
 		(at 213.36 105.41)
@@ -3553,6 +3678,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 173.99) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136d9f8d-75dd-4b68-b75d-109037b7ef8a")
+	)
+	(wire
+		(pts
 			(xy 127 160.02) (xy 127 167.64)
 		)
 		(stroke
@@ -3620,6 +3755,16 @@
 			(type default)
 		)
 		(uuid "1bd888a6-ea5a-4c96-b2a9-420ee6edeb36")
+	)
+	(wire
+		(pts
+			(xy 48.26 191.77) (xy 43.18 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf1a3ff-6ee5-4126-ad3f-8e33381bdd94")
 	)
 	(wire
 		(pts
@@ -3753,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 191.77) (xy 27.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300cab24-432b-46a6-9c6a-c644fd87ed64")
+	)
+	(wire
+		(pts
 			(xy 36.83 80.01) (xy 45.72 80.01)
 		)
 		(stroke
@@ -3800,6 +3955,16 @@
 			(type default)
 		)
 		(uuid "378e2cd0-f63d-4eff-a32f-a5903f6e8fc6")
+	)
+	(wire
+		(pts
+			(xy 43.18 191.77) (xy 38.1 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b8fec4-43b5-4c47-8324-49edbfe058d4")
 	)
 	(bus
 		(pts
@@ -4013,6 +4178,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 186.69) (xy 33.02 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6032fd7a-eee5-4092-8a6e-c1e113251f38")
+	)
+	(wire
+		(pts
 			(xy 39.37 147.32) (xy 39.37 148.59)
 		)
 		(stroke
@@ -4073,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 186.69) (xy 48.26 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7407ac5d-8ec5-485b-8ebb-b9498c377056")
+	)
+	(wire
+		(pts
 			(xy 60.96 101.6) (xy 60.96 99.06)
 		)
 		(stroke
@@ -4120,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "7dc6b4fd-7830-43aa-b82f-cbd40b6141d4")
+	)
+	(wire
+		(pts
+			(xy 48.26 171.45) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3503dc-969a-4fcf-944b-77e95cdc8e3e")
 	)
 	(wire
 		(pts
@@ -4301,6 +4496,16 @@
 		)
 		(uuid "9c86e25c-168b-48b8-bc15-565285ef5389")
 	)
+	(wire
+		(pts
+			(xy 38.1 191.77) (xy 33.02 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbb3c4f-f24a-4627-b2cb-f5d8a5891523")
+	)
 	(bus
 		(pts
 			(xy 161.29 80.01) (xy 170.18 80.01)
@@ -4430,6 +4635,16 @@
 			(type default)
 		)
 		(uuid "b644ffec-93f9-46cd-8544-18a49eca7dfe")
+	)
+	(wire
+		(pts
+			(xy 33.02 191.77) (xy 27.94 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b748426d-5cf4-4297-95e6-10960476562c")
 	)
 	(wire
 		(pts
@@ -4601,6 +4816,16 @@
 		)
 		(uuid "ca7db45d-8a69-40ab-a356-c7f4dd025472")
 	)
+	(wire
+		(pts
+			(xy 27.94 173.99) (xy 33.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac8c9c7-53e5-478f-b4bc-e9e4ec8886a5")
+	)
 	(bus
 		(pts
 			(xy 209.55 129.54) (xy 228.6 129.54)
@@ -4711,6 +4936,16 @@
 		)
 		(uuid "e3dbfc1c-6cce-4eab-9a3b-a20b8e57ce3b")
 	)
+	(wire
+		(pts
+			(xy 48.26 173.99) (xy 43.18 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c60b47-6c04-4b14-9beb-5f72cae94942")
+	)
 	(bus
 		(pts
 			(xy 113.03 162.56) (xy 113.03 154.94)
@@ -4720,6 +4955,16 @@
 			(type default)
 		)
 		(uuid "e626514e-68e8-45db-85a8-75cc93fde4fb")
+	)
+	(wire
+		(pts
+			(xy 43.18 173.99) (xy 43.18 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bfbb9c-6316-4c42-b969-3f1cb047cee2")
 	)
 	(bus
 		(pts
@@ -5725,6 +5970,73 @@
 		(uuid "c12600d9-c790-46cd-8f91-01d17d3849a2")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 33.02 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e95549-b55f-4b94-83fc-d4da2b21b992")
+		(property "Reference" "H3"
+			(at 35.56 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "615b4251-54d3-489e-aa75-6901533dceb4")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 148.59 0)
 		(unit 1)
@@ -5949,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -6019,7 +6331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 172.72 0)
 			(effects
 				(font
@@ -6154,7 +6466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SHOUHAN_TYPE-C_16PIN_2MD__073_"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -6269,7 +6581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 165.1 0)
 			(effects
 				(font
@@ -6404,7 +6716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 57.15 35.56 0)
 			(effects
 				(font
@@ -6562,7 +6874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 149.86 0)
 			(effects
 				(font
@@ -6632,7 +6944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 187.96 0)
 			(effects
 				(font
@@ -6702,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -6745,6 +7057,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 33.02 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "768f075a-b755-4500-bde1-0c5f67cd8ded")
+		(property "Reference" "H1"
+			(at 35.56 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee041eb3-77a6-444e-9616-e42abe265021")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 193.04 0)
 		(unit 1)
@@ -6754,7 +7133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e14fcef-6024-43f3-917d-ead1e38e4cb5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 127 199.39 0)
 			(effects
 				(font
@@ -6804,7 +7183,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6981,7 +7360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 142.24 0)
 			(effects
 				(font
@@ -7404,6 +7783,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 48.26 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c552d218-3a02-4d7f-a37c-dca5db9b4f6d")
+		(property "Reference" "H2"
+			(at 50.8 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f342e2b-bba5-41ae-8e1d-5a44d72386ba")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 46.99 135.89 270)
 		(mirror x)
@@ -7466,6 +7912,73 @@
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 48.26 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cecd85a4-eaa5-48ee-b090-761a618ab5b3")
+		(property "Reference" "H4"
+			(at 50.8 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68df1447-49c1-4994-bdf2-7b8cb26ddf52")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7542,6 +8055,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeddb693-e40d-486d-b3c2-497d333d70fd")
+		(property "Reference" "#PWR019"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8c404a-8658-4147-b304-014a59d0a2d2")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e5b74127-3612-4017-b1e2-26fb10a2adfa"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:ECMF2-40A100N6")
 		(at 196.85 82.55 0)
 		(unit 1)
@@ -7567,7 +8146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ECMF02-2AMX6_QFN-6L"
 			(at 196.85 82.55 0)
 			(effects
 				(font
@@ -7716,7 +8295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 157.48 0)
 			(effects
 				(font
